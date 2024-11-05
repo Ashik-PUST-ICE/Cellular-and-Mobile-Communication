@@ -22,3 +22,9 @@ d = 4      # Distance in kilometers
 # Calculate path loss
 path_loss = calculate_path_loss(fc, hte, hre, d)
 print(f"The path loss is approximately {path_loss:.2f} dB.")
+
+
+
+# Problem-7: Determine the path loss of a 900MHz cellular system in a large city from a 
+# base station with the height of 100m and mobile station installed in a vehicle with antenna 
+# height of 2m. The distance between mobile and base station is 4 km.

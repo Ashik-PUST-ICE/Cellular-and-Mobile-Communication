@@ -19,3 +19,10 @@ hb = 20   # Base station height in meters
 # Calculate path loss
 path_loss = calculate_path_loss(fc, hb)
 print(f"The path loss is approximately {path_loss:.2f} dB.")
+
+
+
+# Problem-8: Determine the path loss between base station (BS) and mobile station (MS) of 
+# a 1.8GHz PCS system operating in a high-rise urban area. The MS is located in a 
+# perpendicular street to the location of the BS. The distances of the BS and MS to the corner 
+# of the street are 20 and 30 meters, respectively. The base station height is 20m.

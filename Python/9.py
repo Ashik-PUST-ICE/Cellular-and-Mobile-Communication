@@ -46,3 +46,14 @@ print(f'Electric Field, Er(d): {Er_d:.9f} V/m')
 print(f'Effective Aperture, Ae: {Ae:.3f} m²')
 print(f'Received power at 5 km distance Er(5 km): {Pr_dB:.2f} dBW')
 print(f'Received power at 5 km distance Er(5 km): {Pr_dBm:.2f} dBm')
+
+
+
+# Problem-9: A mobile is located 5 km away from a base station and uses a vertical λ /4 
+# monopole antenna with a gain of 2.55 dB to receive cellular 3 radio signals. The E-field at 1 
+# km from the transmitter is measured to be V/m. The carrier frequency used for this system is 
+# 900 MHz. 
+# a) Find the length and the gain of the receiving antenna. 
+# b) Find the received power at the mobile using the 2-ray ground reflection model 
+# assuming the height of the transmitting antenna is 50 m and the receiving antenna is 
+# 1.5m above ground.

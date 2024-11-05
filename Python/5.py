@@ -44,3 +44,18 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+
+# Problem-5: A certain city has an area of 1,300 square miles and is covered by a cellular 
+# system using a 7-cell reuse pattern. Each cell has a radius of 4 miles and the city is allocated 
+# 40 MHz of spectrum with a full duplex channel bandwidth of 60 kHz. Assume a GOS of 2% 
+# for an Erlang B system is specified. If the offered traffic per user is 0.03 Erlangs, compute-  
+# a) The number of cells in the service area,  
+# b) The number of channels per cell,  
+# c) Traffic intensity of each cell,  
+# d) The maximum carried traffic, 
+# e) The total number of users that can be served for 2% GOS,  
+# f) The number of mobiles per channel, and  
+# g) The theoretical maximum number of users that could be served at one time by the 
+# system.

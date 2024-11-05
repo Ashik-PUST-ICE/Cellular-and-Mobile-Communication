@@ -1,5 +1,3 @@
-# Problem-3: Calculate the number of users supported for a 0.5% blocking probability
-# for different numbers of trunked channels in a blocked calls cleared system.
 
 # Given values
 blocking_probability = 0.5  # in percent
@@ -38,3 +36,14 @@ trunked_channels_list = [1, 5, 10, 20, 100]
 for channels in trunked_channels_list:
     users_supported = calculate_supported_users(channels)
     print(f"Trunked Channels: {channels}, Supported Users: {users_supported}")
+
+
+
+
+# Problem-3: How many users can be supported for 0.5% blocking probability for the 
+# following number of trunked channels in a blocked calls cleared system? 
+# (b) 1,   
+# (b) 5,   
+# (c) 10,   
+# (d) 20,  
+# (e) 100. 
