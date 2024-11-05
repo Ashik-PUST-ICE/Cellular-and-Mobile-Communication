@@ -52,3 +52,13 @@ print(f"System A: {users_A} users, Market Penetration: {market_penetration_A:.3f
 print(f"System B: {users_B} users, Market Penetration: {market_penetration_B:.3f}%")
 print(f"System C: {users_C} users, Market Penetration: {market_penetration_C:.3f}%")
 print(f"Total Users Supported: {total_users_supported}, Combined Market Penetration: {combined_market_penetration:.3f}%")
+
+
+
+# Problem-4: An urban area has a population of 2 million residents. Three competing 
+# trunked mobile networks (systems A, B, and C) provide cellular service in this area. System 
+# A has 394 cells with 19 channels each, system B has 98 cells with 57 channels each, and 
+# system C has 49 cells, each with 100 channels. Find the number of users that can be 
+# supported at 2% blocking if each user averages 2 calls per hour at an average call duration of 
+# 3 minutes. Assuming that all three trunked systems are operated at maximum capacity, 
+# compute the percentage market penetration of each cellular provider. 

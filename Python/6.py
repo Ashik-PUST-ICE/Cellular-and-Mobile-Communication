@@ -50,3 +50,14 @@ print(f"(a) Transmitter power P_t in dBm: {power_dbm:.1f} dBm")
 print(f"(b) Transmitter power P_t in dBW: {power_dbw:.1f} dBW")
 print(f"(c) Received power P_r at 100 m in dBm: {received_power_100_dbm:.1f} dBm")
 print(f"(d) Received power P_r at 10 km in dBm: {received_power_10_km_dbm:.1f} dBm")
+
+
+
+# Problem-6: If a transmitter produces 50 watts of power, express the transmit power in units 
+# of  
+# a) dBm,   and b) dBW. 
+# If 50 watts is applied to a unity gain antenna with a 900 MHz carrier frequency,  
+# c) Find the received power in dBm at a free space distance of 100 m from the 
+# antenna,  
+# d) What is P (10 km)?  
+# Assume unity gain for the receiver antenna.

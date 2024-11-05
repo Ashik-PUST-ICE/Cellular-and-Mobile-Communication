@@ -26,3 +26,13 @@ print(f"(b) The probability that a delayed call will have to wait: {Prb * 100:.2
 # Question (c)
 Prc = 0.05 * Prb  # Probability that a call is delayed more than 10 seconds
 print(f"(c) The probability that a call will be delayed: {Prc * 100:.2f}%\n")
+
+
+
+# Problem-10: A hexagonal cell within a 4-cell system has a radius of 1.387 km. A total of 
+# 60 channels are used within the entire system. If the load per user is 0.029 Erlangs, and λ= 
+# call/hour, compute the following for an Erlang C system that has a 5% probability of a 
+# delayed call- 
+# a) How many users per square kilometer will this system support? 
+# b) What is the probability that a delayed call will have to wait for more than 10s? 
+# c) What is the probability that a call will be delayed for more than 10 seconds?
