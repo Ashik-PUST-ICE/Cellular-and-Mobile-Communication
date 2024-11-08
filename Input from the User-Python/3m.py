@@ -20,7 +20,8 @@ def calculate_supported_users(trunked_channels, traffic_intensity_per_user):
         U = A / traffic_intensity_per_user
         
         # Since one channel can only support one user, round up to the next whole number
-        return max(1, round(U))  # Ensure at least 1 user can be supported
+        return max (1,int(U) )
+    # Ensure at least 1 user can be supported
     else:
         return None  # Return None if trunked channels not found in the table
 
