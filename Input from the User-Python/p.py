@@ -26,7 +26,7 @@ def find_traffic_intensity(C, target_PB, tolerance=1e-4):
     return (low + high) / 2
 
 # Example: Find A for C = 57 channels and a blocking probability of 2%
-C = 19
-target_PB = 0.02
+C = 20
+target_PB = 0.05
 A = find_traffic_intensity(C, target_PB)
 print(f"Traffic Intensity (A) for C={C} and PB={target_PB*100}%: {A:.2f} Erlangs")
